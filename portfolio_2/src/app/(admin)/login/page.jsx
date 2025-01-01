@@ -8,7 +8,7 @@ const page = () => {
   const [username, setUsername] = useState();
   const [password, setPassword] = useState();
   const router = useRouter();
-  console.log(username)
+  // console.log(username)
 
   const Login = async (e) => {
     e.preventDefault();
