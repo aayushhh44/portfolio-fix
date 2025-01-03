@@ -15,7 +15,7 @@ const page = () => {
     try{
       const resp = await api.post(loginAPI,{username, password});
       console.log(resp)
-      if(resp.status === 201){
+      if(resp.status === 200){
         router.push('/dashboard')
       }
     }catch(err){
