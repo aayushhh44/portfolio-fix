@@ -1,7 +1,6 @@
 "use client";
-import React, { useState } from "react";
-import { FaRegCalendarAlt } from "react-icons/fa";
-// import { useNavigate } from "react-router-dom";
+import React from "react";
+
 
 const BlogPage = () => {
   return (
