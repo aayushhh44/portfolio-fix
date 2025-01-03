@@ -1,12 +1,14 @@
 "use client";
 import React from "react";
+import { FaRegCalendarAlt } from "react-icons/fa";
+
 
 
 const BlogPage = () => {
   return (
     <div>
       <button
-        // onClick={navigate(-1)}
+   
         className="bg-[#d62727] uppercase text-white p-1 px-6 text-xs font-bold"
       >
         back
